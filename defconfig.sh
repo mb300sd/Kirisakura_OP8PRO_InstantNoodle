@@ -18,4 +18,4 @@ export CLANG_LD=$CLANG_BIN_PATH/ld.lld
 export CLANG_LDLTO=$CLANG_BIN_PATH/ld.lld
 export CLANG_NM=$CLANG_BIN_PATH/llvm-nm
 
-make CC=$CLANG_CC LD=$CLANG_LD LDLTO=$CLANG_LD AR=$CLANG_AR NM=$CLANG_NM OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip O=out -j$(nproc --all)
+make CC=$CLANG_CC LD=$CLANG_LD LDLTO=$CLANG_LD AR=$CLANG_AR NM=$CLANG_NM OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip O=out kirisakura_defconfig
